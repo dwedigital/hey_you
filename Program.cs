@@ -27,7 +27,7 @@ namespace console_assignment
             {
                 Console.WriteLine("You had to be dificult");
             }
-            
+
             // Dictionary of questions and answers
             Dictionary<string,string> questions = new Dictionary<string, string>(){
                  {"What is your favourite food?", "yummy"}, {"Where were you born?", "cracking place"}, {"What is you favourite band?", "Crap taste"} 
@@ -37,6 +37,7 @@ namespace console_assignment
 
             // Get a random number between 0 and legnth of dictionary fo question index
             int index = rand.Next(0, questions.Count);
+            // KeyAt comes from LINQ
             string currentQuestion = questions.ElementAt(index).Key;
             string currentAnswer = questions.ElementAt(index).Value;
             Console.WriteLine(currentQuestion);
