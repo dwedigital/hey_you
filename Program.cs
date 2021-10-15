@@ -29,8 +29,8 @@ namespace console_assignment
             }
 
             // Dictionary of questions and answers
-            Dictionary<string,string> questions = new Dictionary<string, string>(){
-                 {"What is your favourite food?", "yummy"}, {"Where were you born?", "cracking place"}, {"What is you favourite band?", "Crap taste"} 
+            Dictionary<string, string> questions = new Dictionary<string, string>(){
+                 {"What is your favourite food?", "yummy"}, {"Where were you born?", "cracking place"}, {"What is you favourite band?", "Crap taste"}
             };
             // create a Random object
             var rand = new Random();
