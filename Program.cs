@@ -25,7 +25,7 @@ namespace console_assignment
             }
             else
             {
-                Console.WriteLine("You had to be dificult");
+                Console.WriteLine("You had to be difficult");
             }
 
             // Dictionary of questions and answers
